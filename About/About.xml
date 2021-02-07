@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Tiny Workbenchs (Continued)</name>
+  <packageId>Mlie.TinyWorkbenchs</packageId>
+  <author>Alaestor</author>
+  <url>https://github.com/emipa606/TinyWorkbenchs</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Alaestors mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/TinyWorkbenchs][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[h1]Notice Of Abandonment[/h1]
+[i]This mod is no longer maintained; it won't be receiving updates or fixes.[/i]
+Know of a suitable replacement? Leave a link in the comments!
+
+
+
+
+----
+	Mod Version: 1.0.0
+
+Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base speed), take longer to build, and are more fragile. But they use less space.
+
+[u][b]Load this near the bottom of your modlist![/b][/u] This will reduce compatibility issues and allow Tiny Workbenchs to include recipes added to the vanilla workbenchs by other mods (in theory).
+
+
+
+Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager's "Small Workbenches"[/url] which was under an MIT license.
+
+These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

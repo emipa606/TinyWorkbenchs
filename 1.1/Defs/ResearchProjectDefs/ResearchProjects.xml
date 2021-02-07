@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>TWB_TinyWorkBenchs</defName>
+    <label>Tiny Workbenchs</label>
+    <description>Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>11</researchViewX>
+    <researchViewY>2.30</researchViewY>
+    <!-- reference ShieldBelt
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>2.30</researchViewY>-->
+  </ResearchProjectDef>
+</Defs>

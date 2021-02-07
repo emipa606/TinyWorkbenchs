@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Tiny Workbenchs</name>
+  <author>Alaestor</author>
+  <packageId>Alaestor.TinyWorkbenchs</packageId>
+  <url>
+  </url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <description>	Mod Version: 1.1.1
+
+Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base speed), take longer to build, and are more fragile. But they use less space.
+
+Inspired by (and ripping off) Voyager's "Small Workbenches" which was under an MIT license.
+
+These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
+
+To contact me (Alaestor) please use Discord
+( visit http://roleplay.FutureGadgetLab.net )
+
+</description>
+</ModMetaData>
