@@ -252,4 +252,25 @@
       <li>TWB_ElectricSmelterMini</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
 </Patch>

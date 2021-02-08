@@ -7,7 +7,7 @@
     </researchPrerequisites>
     <rotatable>true</rotatable>
     <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -27,6 +27,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
+    <uiIconScale>0.7</uiIconScale>
     <statBases>
       <WorkToBuild>4000</WorkToBuild>
       <MaxHitPoints>50</MaxHitPoints>
@@ -43,11 +44,12 @@
   <!-- INHERET -->
   <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_TableSculptingMini</defName>
-    <label>tiny sculptor's table</label>
+    <label>tiny art bench</label>
     <thingClass>Building_WorkTable</thingClass>
-    <description>A tiny workbench equipped for artistic sculpting.</description>
+    <description>A tiny workbench equipped for creating art.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_TableSculptingMini</texPath>
+      <texPath>Things/Buildings/TWB_TableSculptingMini/TWB_TableSculptingMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <stuffCategories>
       <li>Metallic</li>
@@ -78,7 +80,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny table for butchering dead creatures into pieces of raw meat.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_TableButcherMini</texPath>
+      <texPath>Things/Buildings/TWB_TableButcherMini/TWB_TableButcherMini</texPath>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <costList>
@@ -113,7 +115,8 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny workbench with a sewing machine for rapid tailoring of clothes.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_HandTailoringBenchMini</texPath>
+      <texPath>Things/Buildings/TWB_HandTailoringBenchMini/TWB_HandTailoringBenchMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <costList>
@@ -146,7 +149,8 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny workbench with a sewing machine for rapid tailoring of clothes.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_ElectricTailoringBenchMini</texPath>
+      <texPath>Things/Buildings/TWB_ElectricTailoringBenchMini/TWB_ElectricTailoringBenchMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <costList>
@@ -188,7 +192,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny wood-fueled station for smithing non-mechanical weapons and tools.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_FueledSmithyMini</texPath>
+      <texPath>Things/Buildings/TWB_FueledSmithyMini/TWB_FueledSmithyMini</texPath>
     </graphicData>
     <costList>
       <Steel>50</Steel>
@@ -227,7 +231,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny electric-powered station equipped for smithing non-mechanical weapons and tools.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_ElectricSmithyMini</texPath>
+      <texPath>Things/Buildings/TWB_ElectricSmithyMini/TWB_ElectricSmithyMini</texPath>
     </graphicData>
     <costList>
       <Steel>50</Steel>
@@ -264,7 +268,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny work station for assembling and disassembling machinery such as guns or mechanoid corpses.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_TableMachiningMini</texPath>
+      <texPath>Things/Buildings/TWB_TableMachiningMini/TWB_TableMachiningMini</texPath>
     </graphicData>
     <costList>
       <Steel>90</Steel>
@@ -304,12 +308,52 @@
     <designationHotKey>Misc7</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
+    <defName>TWB_ElectricStoveMini</defName>
+    <label>tiny electric stove</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_ElectricStoveMini/TWB_ElectricStoveMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>CookMealFine</li>
+      <li>CookMealLavish</li>
+      <li>CookMealSurvival</li>
+      <li>Make_Pemmican</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc8</designationHotKey>
+  </ThingDef>
+  <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_FueledStoveMini</defName>
     <label>tiny fueled stove</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny wood-fueled stove with an attached countertop for preparing meals.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_FueledStoveMini</texPath>
+      <texPath>Things/Buildings/TWB_FueledStoveMini/TWB_FueledStoveMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <constructEffect>ConstructMetal</constructEffect>
     <costList>
@@ -345,50 +389,13 @@
     </building>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
-    <defName>TWB_ElectricStoveMini</defName>
-    <label>tiny electric stove</label>
-    <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
-    <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_ElectricStoveMini</texPath>
-    </graphicData>
-    <constructEffect>ConstructMetal</constructEffect>
-    <costList>
-      <Steel>30</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <recipes>
-      <li>CookMealSimple</li>
-      <li>CookMealFine</li>
-      <li>CookMealLavish</li>
-      <li>CookMealSurvival</li>
-      <li>Make_Pemmican</li>
-    </recipes>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>350</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-    </comps>
-    <building>
-      <isMealSource>true</isMealSource>
-      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
-    </building>
-    <researchPrerequisites>
-      <li>Electricity</li>
-    </researchPrerequisites>
-    <designationHotKey>Misc8</designationHotKey>
-  </ThingDef>
-  <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_TableStonecutterMini</defName>
     <label>tiny stonecutter's table</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny work table equipped to cut rough stone into usable blocks.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_TableStonecutterMini</texPath>
+      <texPath>Things/Buildings/TWB_TableStonecutterMini/TWB_TableStonecutterMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <costList>
@@ -417,12 +424,35 @@
     </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
+    <defName>TWB_BreweryMini</defName>
+    <label>tiny brewery</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A tiny work station with all the equipment needed to mix wort for beer production. Wort must be fermented to finally become beer.</description>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_BreweryMini/TWB_BreweryMini</texPath>
+    </graphicData>
+    <costList>
+      <WoodLog>70</WoodLog>
+      <Steel>16</Steel>
+    </costList>
+    <recipes>
+      <li>Make_Wort</li>
+    </recipes>
+    <researchPrerequisites>
+      <li>Brewing</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_DrugLabMini</defName>
     <label>tiny drug lab</label>
     <thingClass>Building_WorkTable</thingClass>
     <description>A tiny work bench equipped with various containers, heaters, and measurement equipment for producing a variety of drugs.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_DrugLabMini</texPath>
+      <texPath>Things/Buildings/TWB_DrugLabMini/TWB_DrugLabMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
@@ -453,7 +483,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power.</description>
     <graphicData>
-      <texPath>Things/Buildings/TWB/TWB_ElectricSmelterMini</texPath>
+      <texPath>Things/Buildings/TWB_ElectricSmelterMini/TWB_ElectricSmelterMini</texPath>
     </graphicData>
     <constructEffect>ConstructMetal</constructEffect>
     <costList>
