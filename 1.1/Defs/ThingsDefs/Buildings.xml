@@ -463,7 +463,9 @@
     <recipes>
       <li>ExtractMetalFromSlag</li>
       <li>SmeltWeapon</li>
+      <li>SmeltApparel</li>
       <li>DestroyWeapon</li>
+      <li>DestroyApparel</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">
