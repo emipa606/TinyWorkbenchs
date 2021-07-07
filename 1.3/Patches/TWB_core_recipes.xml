@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'TableSculpting')]]</xpath>
+    <value>
+      <li>TWB_TableSculptingMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'TableSculpting')]]</xpath>
+    <value>
+      <li>TWB_TableSculptingMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'TableSculpting')]]</xpath>
+    <value>
+      <li>TWB_TableSculptingMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'TableButcher')]]</xpath>
+    <value>
+      <li>TWB_TableButcherMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'TableButcher')]]</xpath>
+    <value>
+      <li>TWB_TableButcherMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'TableButcher')]]</xpath>
+    <value>
+      <li>TWB_TableButcherMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'HandTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_HandTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'HandTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_HandTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'HandTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_HandTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'ElectricTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_ElectricTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'ElectricTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_ElectricTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'ElectricTailoringBench')]]</xpath>
+    <value>
+      <li>TWB_ElectricTailoringBenchMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'ElectricSmithy')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'ElectricSmithy')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'ElectricSmithy')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmithyMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'TableMachining')]]</xpath>
+    <value>
+      <li>TWB_TableMachiningMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'TableMachining')]]</xpath>
+    <value>
+      <li>TWB_TableMachiningMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'TableMachining')]]</xpath>
+    <value>
+      <li>TWB_TableMachiningMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'ElectricStove')]]</xpath>
+    <value>
+      <li>TWB_ElectricStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'ElectricStove')]]</xpath>
+    <value>
+      <li>TWB_ElectricStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'ElectricStove')]]</xpath>
+    <value>
+      <li>TWB_ElectricStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <value>
+      <li>TWB_FueledStoveMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'TableStonecutter')]]</xpath>
+    <value>
+      <li>TWB_TableStonecutterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'TableStonecutter')]]</xpath>
+    <value>
+      <li>TWB_TableStonecutterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'TableStonecutter')]]</xpath>
+    <value>
+      <li>TWB_TableStonecutterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'DrugLab')]]</xpath>
+    <value>
+      <li>TWB_DrugLabMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'DrugLab')]]</xpath>
+    <value>
+      <li>TWB_DrugLabMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'DrugLab')]]</xpath>
+    <value>
+      <li>TWB_DrugLabMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'ElectricSmelter')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmelterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'ElectricSmelter')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmelterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'ElectricSmelter')]]</xpath>
+    <value>
+      <li>TWB_ElectricSmelterMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'Brewery')]]</xpath>
+    <value>
+      <li>TWB_BreweryMini</li>
+    </value>
+  </Operation>
+</Patch>

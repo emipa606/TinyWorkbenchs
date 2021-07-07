@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Tiny Workbenchs (Continued)</name>
   <packageId>Mlie.TinyWorkbenchs</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -29,7 +30,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 	
 [img]https://i.imgur.com/NOW7jU1.png[/img]
 [h1]Notice Of Abandonment[/h1]
-[i]This mod is no longer maintained; it won't be receiving updates or fixes.[/i]
+[i]This mod is no longer maintained; it won&apos;t be receiving updates or fixes.[/i]
 Know of a suitable replacement? Leave a link in the comments!
 
 
@@ -44,9 +45,9 @@ Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base s
 
 
 
-Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager's "Small Workbenches"[/url] which was under an MIT license.
+Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager&apos;s &quot;Small Workbenches&quot;[/url] which was under an MIT license.
 
-These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
+These textures aren&apos;t up to 1.0 quality, and I&apos;m a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I&apos;ll credit them accordingly.
 
 [img]https://i.imgur.com/Rs6T6cr.png[/img]
 [list]
