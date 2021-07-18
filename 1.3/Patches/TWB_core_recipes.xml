@@ -86,21 +86,21 @@
   </Operation>
   <Operation Class="PatchOperationAdd">
     <success>Always</success>
-    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <xpath>Defs/RecipeDef/recipeUsers[./li[contains(.,'FueledSmithy')]]</xpath>
     <value>
       <li>TWB_FueledSmithyMini</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <success>Always</success>
-    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'FueledStove')]]</xpath>
+    <xpath>Defs/WorkGiverDef/fixedBillGiverDefs[./li[contains(.,'FueledSmithy')]]</xpath>
     <value>
       <li>TWB_FueledSmithyMini</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <success>Always</success>
-    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'FueledStove')]]</xpath>
+    <xpath>Defs/ThingDef/recipeMaker/recipeUsers[./li[contains(.,'FueledSmithy')]]</xpath>
     <value>
       <li>TWB_FueledSmithyMini</li>
     </value>

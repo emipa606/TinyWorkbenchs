@@ -308,45 +308,6 @@
     <designationHotKey>Misc7</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
-    <defName>TWB_ElectricStoveMini</defName>
-    <label>tiny electric stove</label>
-    <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
-    <graphicData>
-      <texPath>Things/Buildings/TWB_ElectricStoveMini/TWB_ElectricStoveMini</texPath>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <constructEffect>ConstructMetal</constructEffect>
-    <costList>
-      <Steel>30</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <recipes>
-      <li>CookMealSimple</li>
-      <li>CookMealFine</li>
-      <li>CookMealLavish</li>
-      <li>CookMealSurvival</li>
-      <li>Make_Pemmican</li>
-    </recipes>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>350</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-    </comps>
-    <building>
-      <isMealSource>true</isMealSource>
-      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
-    </building>
-    <researchPrerequisites>
-      <li>Electricity</li>
-    </researchPrerequisites>
-    <designationHotKey>Misc8</designationHotKey>
-  </ThingDef>
-  <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_FueledStoveMini</defName>
     <label>tiny fueled stove</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
@@ -387,6 +348,45 @@
       <isMealSource>true</isMealSource>
       <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
     </building>
+  </ThingDef>
+  <ThingDef ParentName="TWB_MiniBenchBase">
+    <defName>TWB_ElectricStoveMini</defName>
+    <label>tiny electric stove</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_ElectricStoveMini/TWB_ElectricStoveMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipes>
+      <li>CookMealSimple</li>
+      <li>CookMealFine</li>
+      <li>CookMealLavish</li>
+      <li>CookMealSurvival</li>
+      <li>Make_Pemmican</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc8</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_TableStonecutterMini</defName>
