@@ -1,6 +1,6 @@
 # TinyWorkbenchs
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
@@ -8,23 +8,14 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 - Reworked all graphics based on the vanilla benches and multi-textures
 - Added a tiny brewery
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/TinyWorkbenchs]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 # Notice Of Abandonment
 
-*This mod is no longer maintained; it won&apos;t be receiving updates or fixes.*
+*This mod is no longer maintained; it won't be receiving updates or fixes.*
 Know of a suitable replacement? Leave a link in the comments!
 
 
@@ -39,11 +30,11 @@ Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base s
 
 
 
-Inspired by (and ripping off) https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager&apos;s &quot;Small Workbenches&quot; which was under an MIT license.
+Inspired by (and ripping off) https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager's "Small Workbenches" which was under an MIT license.
 
-These textures aren&apos;t up to 1.0 quality, and I&apos;m a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I&apos;ll credit them accordingly.
+These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

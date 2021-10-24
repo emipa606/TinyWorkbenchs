@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Tiny Workbenchs (Continued)</name>
   <packageId>Mlie.TinyWorkbenchs</packageId>
@@ -12,14 +12,14 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 
 - Reworked all graphics based on the vanilla benches and multi-textures
 - Added a tiny brewery
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -28,9 +28,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [h1]Notice Of Abandonment[/h1]
-[i]This mod is no longer maintained; it won&apos;t be receiving updates or fixes.[/i]
+[i]This mod is no longer maintained; it won't be receiving updates or fixes.[/i]
 Know of a suitable replacement? Leave a link in the comments!
 
 
@@ -45,11 +45,11 @@ Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base s
 
 
 
-Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager&apos;s &quot;Small Workbenches&quot;[/url] which was under an MIT license.
+Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1331181010andsearchtext=Small+Workbenches]Voyager's "Small Workbenches"[/url] which was under an MIT license.
 
-These textures aren&apos;t up to 1.0 quality, and I&apos;m a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I&apos;ll credit them accordingly.
+These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
