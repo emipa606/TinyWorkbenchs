@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 
 - Reworked all graphics based on the vanilla benches and multi-textures
 - Added a tiny brewery
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

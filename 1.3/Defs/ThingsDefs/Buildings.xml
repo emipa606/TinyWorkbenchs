@@ -28,11 +28,13 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <uiIconScale>0.7</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <statBases>
       <WorkToBuild>4000</WorkToBuild>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkTableWorkSpeedFactor>0.70</WorkTableWorkSpeedFactor>
+      <Mass>8</Mass>
     </statBases>
     <inspectorTabs>
       <li>ITab_Bills</li>

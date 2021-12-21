@@ -4,16 +4,12 @@
     <defName>TWB_TinyWorkBenchs</defName>
     <label>Tiny Workbenchs</label>
     <description>Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow.</description>
-    <baseCost>4000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>ComplexFurniture</li>
     </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>11.00</researchViewX>
-    <researchViewY>2.60</researchViewY>
-    <!-- reference ShieldBelt
-		<researchViewX>10.00</researchViewX>
-		<researchViewY>2.30</researchViewY>-->
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.05</researchViewY>
   </ResearchProjectDef>
 </Defs>
