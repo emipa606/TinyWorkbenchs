@@ -128,9 +128,9 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
-    <building>
-      <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
-    </building>
+    <statBases>
+      <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
+    </statBases>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
@@ -164,7 +164,7 @@
       <li>Woody</li>
     </stuffCategories>
     <building>
-      <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+      <unpoweredWorkTableWorkSpeedFactor>0.3</unpoweredWorkTableWorkSpeedFactor>
     </building>
     <comps>
       <li Class="CompProperties_Power">

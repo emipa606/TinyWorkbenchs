@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.3.1 - Replaced patch with c#, will now clone ALL recipes from their larger versions. Fixed the workspeed for the tailoring benches
+
+
 1.0.6.0 - Made the research requirement less demanding. Added mass-values and terrain affordances
 
 
