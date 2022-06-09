@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using RimWorld;
 using Verse;
 
 namespace TinyWorkbenches;
@@ -24,6 +25,14 @@ public class TinyWorkbenches
                 if (!bench.recipes.Contains(recipeDef))
                 {
                     bench.recipes.Add(recipeDef);
+                }
+            }
+
+            foreach (var workGiverDef in DefDatabase<WorkGiverDef>.AllDefsListForReading)
+            {
+                if (workGiverDef.fixedBillGiverDefs?.Contains(originalBench) == true)
+                {
+                    workGiverDef.fixedBillGiverDefs.Add(bench);
                 }
             }
         }
