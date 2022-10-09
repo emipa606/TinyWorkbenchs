@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.2 - Fixed the missing workgivers-add for the new clone of recipes.
 
 

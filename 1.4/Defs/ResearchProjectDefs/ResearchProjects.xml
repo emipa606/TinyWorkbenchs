@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>TWB_TinyWorkBenchs</defName>
+    <label>Tiny Workbenchs</label>
+    <description>Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ComplexFurniture</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.05</researchViewY>
+  </ResearchProjectDef>
+</Defs>
