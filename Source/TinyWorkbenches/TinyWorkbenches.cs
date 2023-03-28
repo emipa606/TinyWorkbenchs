@@ -13,8 +13,6 @@ public class TinyWorkbenches
         foreach (var bench in DefDatabase<ThingDef>.AllDefsListForReading.Where(def => def.defName.StartsWith("TWB_")))
         {
             var originalBench = ThingDef.Named(bench.defName.Replace("TWB_", "").Replace("Mini", ""));
-            Log.Message(
-                $"[TinyWorkbenches]: Cloning {originalBench.AllRecipes.Count} recipes from {originalBench.LabelCap} to {bench.LabelCap}");
             foreach (var recipeDef in originalBench.AllRecipes)
             {
                 if (bench.recipes == null)
@@ -35,6 +33,26 @@ public class TinyWorkbenches
                     workGiverDef.fixedBillGiverDefs.Add(bench);
                 }
             }
+
+            var affectionComp = bench.GetCompProperties<CompProperties_AffectedByFacilities>();
+            if (affectionComp == null)
+            {
+                continue;
+            }
+
+            var originalComp = originalBench.GetCompProperties<CompProperties_AffectedByFacilities>();
+            if (originalComp == null)
+            {
+                continue;
+            }
+
+            affectionComp.linkableFacilities = originalComp.linkableFacilities;
+        }
+
+        foreach (var facility in DefDatabase<ThingDef>.AllDefsListForReading.Where(def =>
+                     def.HasComp(typeof(CompFacility))))
+        {
+            facility.GetCompProperties<CompProperties_Facility>().ResolveReferences(facility);
         }
     }
 }

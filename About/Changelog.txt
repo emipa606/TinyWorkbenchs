@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.4.2 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production[/url] if loaded
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

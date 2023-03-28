@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VFE_TableButcherElectric"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <ThingDef ParentName="TWB_MiniBenchBase">
+          <defName>TWB_VFE_TableButcherElectricMini</defName>
+          <label>tiny electric butcher</label>
+          <thingClass>Building_WorkTable</thingClass>
+          <description>A tiny motorized table with a rotating saw blade for butchering dead creatures quicker into precise slices of raw meat. Consumes some power.</description>
+          <graphicData>
+            <texPath>Things/Buildings/TWB_VFE_TableButcherElectricMini/TWB_VFE_TableButcherElectricMini</texPath>
+          </graphicData>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+          <costStuffCount>40</costStuffCount>
+          <costList>
+            <Steel>15</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+          </costList>
+          <statBases>
+            <Cleanliness>-15</Cleanliness>
+            <WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+          </statBases>
+          <comps>
+            <li Class="CompProperties_Power">
+              <compClass>CompPowerTrader</compClass>
+              <basePowerConsumption>250</basePowerConsumption>
+              <shortCircuitInRain>true</shortCircuitInRain>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+              <linkableFacilities>
+                <li>ToolCabinet</li>
+              </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+          </comps>
+          <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+          </placeWorkers>
+          <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+          <researchPrerequisites>
+            <li>Electricity</li>
+          </researchPrerequisites>
+        </ThingDef>
+        <ThingDef ParentName="TWB_MiniBenchBase">
+          <defName>TWB_VFE_TableDrugLabElectricMini</defName>
+          <label>tiny electric drug lab</label>
+          <thingClass>Building_WorkTable</thingClass>
+          <description>An tiny advanced work bench equipped with containers, heaters, and measurement devices for producing various drugs with more efficiency. Consumes some power.</description>
+          <graphicData>
+            <texPath>Things/Buildings/TWB_VFE_TableDrugLabElectricMini/TWB_VFE_TableDrugLabElectricMini</texPath>
+            <shaderType>CutoutComplex</shaderType>
+          </graphicData>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+          <costStuffCount>60</costStuffCount>
+          <costList>
+            <Steel>95</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+          </costList>
+          <statBases>
+            <WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+          </statBases>
+          <comps>
+            <li Class="CompProperties_Power">
+              <compClass>CompPowerTrader</compClass>
+              <basePowerConsumption>275</basePowerConsumption>
+              <shortCircuitInRain>true</shortCircuitInRain>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+              <linkableFacilities>
+                <li>ToolCabinet</li>
+              </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+          </comps>
+          <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+          </placeWorkers>
+          <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+          <researchPrerequisites>
+            <li>Electricity</li>
+            <li>DrugProduction</li>
+          </researchPrerequisites>
+        </ThingDef>
+        <ThingDef ParentName="TWB_MiniBenchBase">
+          <defName>TWB_VFE_FueledSmelterMini</defName>
+          <label>tiny fueled smelter</label>
+          <thingClass>Building_WorkTable_HeatPush</thingClass>
+          <description>A tiny wood-fueled station for smelting. Extracts usable metal from slag chunks and other mixed metal items.</description>
+          <graphicData>
+            <texPath>Things/Buildings/TWB_VFE_FueledSmelterMini/TWB_VFE_FueledSmelterMini</texPath>
+          </graphicData>
+          <costList>
+            <Steel>120</Steel>
+          </costList>
+          <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+          <recipes>
+            <li>ExtractMetalFromSlag</li>
+            <li>SmeltWeapon</li>
+            <li>DestroyWeapon</li>
+          </recipes>
+          <comps>
+            <li Class="CompProperties_Refuelable">
+              <fuelConsumptionRate>140.0</fuelConsumptionRate>
+              <fuelCapacity>40.0</fuelCapacity>
+              <fuelFilter>
+                <thingDefs>
+                  <li>WoodLog</li>
+                </thingDefs>
+              </fuelFilter>
+              <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+              <compClass>CompHeatPusherPowered</compClass>
+              <heatPerSecond>7</heatPerSecond>
+            </li>
+          </comps>
+          <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <heatPerTickWhileWorking>0.75</heatPerTickWhileWorking>
+          </building>
+          <researchPrerequisites>
+            <li>Smithing</li>
+          </researchPrerequisites>
+        </ThingDef>
+        <ThingDef ParentName="TWB_MiniBenchBase">
+          <defName>TWB_VFE_TableStonecutterElectricMini</defName>
+          <label>tiny electric stonecutter's table</label>
+          <thingClass>Building_WorkTable_HeatPush</thingClass>
+          <description>An tiny advanced work table with electrical saws and holders for cutting stone chunks into usable blocks in shorter duration of time on an assembly line. Consumes some power.</description>
+          <graphicData>
+            <texPath>Things/Buildings/TWB_VFE_TableStonecutterElectricMini/TWB_VFE_TableStonecutterElectricMini</texPath>
+            <shaderType>CutoutComplex</shaderType>
+          </graphicData>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+          <costStuffCount>90</costStuffCount>
+          <costList>
+            <Steel>45</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+          </costList>
+          <statBases>
+            <WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+          </statBases>
+          <comps>
+            <li Class="CompProperties_Power">
+              <compClass>CompPowerTrader</compClass>
+              <basePowerConsumption>150</basePowerConsumption>
+              <shortCircuitInRain>true</shortCircuitInRain>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+              <linkableFacilities>
+                <li>ToolCabinet</li>
+              </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+          </comps>
+          <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+          </placeWorkers>
+          <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <paintable>true</paintable>
+          </building>
+          <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+          <researchPrerequisites>
+            <li>Stonecutting</li>
+            <li>Electricity</li>
+          </researchPrerequisites>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

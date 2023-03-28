@@ -50,3 +50,4 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423]Last updated 2023-03-28
