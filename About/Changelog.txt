@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.4.3 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803]Vanilla Helixien Gas Expanded[/url] if loaded
+
+
 1.4.2 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production[/url] if loaded
 
 

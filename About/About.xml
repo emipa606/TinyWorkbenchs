@@ -21,6 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 - Added a tiny brewery
 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke[/url]
 - Replaced the patch with c# logic, now all recipes will be cloned from the larger benches
+- Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production[/url] if loaded
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -65,7 +66,5 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423]Last updated 2023-03-28[/url]</description>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423]Last updated 2023-04-27[/url]</description>
 </ModMetaData>
