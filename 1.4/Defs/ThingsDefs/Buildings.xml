@@ -41,6 +41,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <paintable>true</paintable>
     </building>
   </ThingDef>
   <!-- INHERET -->
@@ -523,5 +524,28 @@
       <li>Electricity</li>
     </researchPrerequisites>
     <designationHotKey>Misc10</designationHotKey>
+  </ThingDef>
+  <ThingDef ParentName="TWB_MiniBenchBase">
+    <defName>TWB_SimpleResearchBenchMini</defName>
+    <label>tiny simple research bench</label>
+    <description>A tiny simple bench with writing implements and simple measurement devices. Researchers work here to discover new things.</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_SimpleResearchBenchMini/TWB_SimpleResearchBenchMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <ResearchSpeedFactor>0.6</ResearchSpeedFactor>
+    </statBases>
+    <inspectorTabs Inherit="False" />
   </ThingDef>
 </Defs>

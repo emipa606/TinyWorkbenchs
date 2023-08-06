@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.4.4 - Added a tiny research-bench
+
+
 1.4.3 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803]Vanilla Helixien Gas Expanded[/url] if loaded
 
 

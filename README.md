@@ -10,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 - Replaced the patch with c# logic, now all recipes will be cloned from the larger benches
 - Added tiny workbenches of https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production if loaded
+- Added tiny workbenches of https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803]Vanilla Helixien Gas Expanded if loaded
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -49,4 +50,4 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423]Last updated 2023-04-27
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423]Last updated 2023-08-07
