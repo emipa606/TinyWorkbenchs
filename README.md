@@ -1,4 +1,4 @@
-# TinyWorkbenchs
+# Tiny Workbenchs (continued)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -36,9 +36,9 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 
 - See if the the error persists if you just have this mod and its requirements active.
 - If not, try adding your other mods until it happens again.
-- Post your error-log using [Hugslib publisher](https://steamcommunity.com/workshop/filedetails/?id=818773962) and using command Ctrl+F12.
+- Post your error-log using [Hugslib publisher](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and using command Ctrl+F12.
 - For best support, please use the Discord-channel for error-reporting.
 - Do not report errors by making a discussion-thread, I get no notification of that.
 - If you have the solution for a problem, please post it to the GitHub repository.
 
-[Tiny Workbench continued](https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423) Last updated 2023-08-07
+[Tiny Workbenchs continued](https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423) Last updated 2023-08-07
