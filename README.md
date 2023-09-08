@@ -15,14 +15,13 @@ Update of [Alaestors mod](https://steamcommunity.com/sharedfiles/filedetails/?id
 
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
-# Notice Of Abandonment
+## Notice Of Abandonment
 
 _This mod is no longer maintained; it won't be receiving updates or fixes._
 Know of a suitable replacement? Leave a link in the comments!
 
----
-
-# Mod Version: 1.0.0
+----
+	Mod Version: 1.0.0
 
 Adds 1x1 versions of a few workbenchs. They have a workspeed penalty (70% base speed), take longer to build, and are more fragile. But they use less space.
 
