@@ -313,6 +313,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
     <graphicData>
+      <drawSize>(1,1)</drawSize>
       <texPath>Things/Buildings/TWB_ElectricStoveMini/TWB_ElectricStoveMini</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -352,6 +353,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny wood-fueled stove with an attached countertop for preparing meals.</description>
     <graphicData>
+      <drawSize>(1.2,1.0)</drawSize>
       <texPath>Things/Buildings/TWB_FueledStoveMini/TWB_FueledStoveMini</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -483,6 +485,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power.</description>
     <graphicData>
+      <drawSize>(1,1)</drawSize>
       <texPath>Things/Buildings/TWB_ElectricSmelterMini/TWB_ElectricSmelterMini</texPath>
     </graphicData>
     <constructEffect>ConstructMetal</constructEffect>

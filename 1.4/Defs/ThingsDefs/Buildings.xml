@@ -316,6 +316,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny wood-fueled stove with an attached countertop for preparing meals.</description>
     <graphicData>
+      <drawSize>(1.2,1.0)</drawSize>
       <texPath>Things/Buildings/TWB_FueledStoveMini/TWB_FueledStoveMini</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -358,6 +359,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>A tiny electrically-powered stove with an attached countertop for preparing meals.</description>
     <graphicData>
+      <drawSize>(1,1)</drawSize>
       <texPath>Things/Buildings/TWB_ElectricStoveMini/TWB_ElectricStoveMini</texPath>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -486,6 +488,7 @@
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <description>Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power.</description>
     <graphicData>
+      <drawSize>(1,1)</drawSize>
       <texPath>Things/Buildings/TWB_ElectricSmelterMini/TWB_ElectricSmelterMini</texPath>
     </graphicData>
     <constructEffect>ConstructMetal</constructEffect>
@@ -547,5 +550,68 @@
       <ResearchSpeedFactor>0.6</ResearchSpeedFactor>
     </statBases>
     <inspectorTabs Inherit="False" />
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TWB_NutrientPasteDispenser</defName>
+    <label>tiny nutrient paste dispenser</label>
+    <description>A tiny machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay.</description>
+    <thingClass>Building_NutrientPasteDispenser</thingClass>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_NutrientDispenserMini/TWB_NutrientDispenserMini</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <color>(232,255,191)</color>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.1,1.1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <uiIconScale>0.7</uiIconScale>
+    <statBases>
+      <WorkToBuild>2700</WorkToBuild>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <building>
+      <isMealSource>true</isMealSource>
+      <wantsHopperAdjacent>true</wantsHopperAdjacent>
+      <nutritionCostPerDispense>0.4</nutritionCostPerDispense>
+      <soundDispense>DispensePaste</soundDispense>
+      <forceShowRoomStats>true</forceShowRoomStats>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>75</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <uiOrder>2130</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>NutrientPaste</li>
+      <li>TWB_TinyWorkBenchs</li>
+    </researchPrerequisites>
   </ThingDef>
 </Defs>

@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.4.5 - Some new textures, thanks to Chunnyluny! Also added a tiny paste-dispenser
+
+
 1.4.4 - Added a tiny research-bench
 
 
