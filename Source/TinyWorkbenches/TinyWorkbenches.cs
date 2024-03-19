@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using RimWorld;
 using Verse;
 
@@ -17,7 +16,7 @@ public class TinyWorkbenches
             {
                 if (bench.recipes == null)
                 {
-                    bench.recipes = new List<RecipeDef>();
+                    bench.recipes = [];
                 }
 
                 if (!bench.recipes.Contains(recipeDef))

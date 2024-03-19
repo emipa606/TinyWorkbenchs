@@ -6,8 +6,10 @@ Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 
 - Reworked all graphics based on the vanilla benches and multi-textures
+- Some textures made by Chunnyluny
 - Added a tiny brewery
 - Added a tiny simple research bench
+- Added a tiny nutrient paste dispenser
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 - Replaced the patch with c# logic, now all recipes will be cloned from the larger benches
 - Added tiny workbenches of https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production if loaded
@@ -15,21 +17,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://dsc.gg/mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/TinyWorkbenchs]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-    [tr]
-        [td]![Image](https://i.imgur.com/WjDSfUn.png)
-[/td]
-        [td]![Image](https://i.imgur.com/Be8E2qJ.png)
-[/td]
-    [/tr]
-[/table]
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -64,6 +51,7 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
 

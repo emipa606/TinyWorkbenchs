@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.5 - Some new textures, thanks to Chunnyluny! Also added a tiny paste-dispenser
 
 
