@@ -14,10 +14,7 @@ public class TinyWorkbenches
             var originalBench = ThingDef.Named(bench.defName.Replace("TWB_", "").Replace("Mini", ""));
             foreach (var recipeDef in originalBench.AllRecipes)
             {
-                if (bench.recipes == null)
-                {
-                    bench.recipes = [];
-                }
+                bench.recipes ??= [];
 
                 if (!bench.recipes.Contains(recipeDef))
                 {

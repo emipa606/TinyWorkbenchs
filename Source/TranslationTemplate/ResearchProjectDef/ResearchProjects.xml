@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Tiny Workbenchs -->
+  <TWB_TinyWorkBenchs.label>Tiny Workbenchs</TWB_TinyWorkBenchs.label>
+  <!-- EN: Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow. -->
+  <TWB_TinyWorkBenchs.description>Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow.</TWB_TinyWorkBenchs.description>
+</LanguageData>
