@@ -658,6 +658,55 @@
       </li>
     </comps>
   </ThingDef>
+  <ThingDef ParentName="TWB_MiniBenchBase">
+    <defName>TWB_HiTechResearchBenchMini</defName>
+    <label>tiny hi-tech research bench</label>
+    <description>A tiny high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects.</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+      <Steel>25</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <graphicData>
+      <texPath>Things/Buildings/TWB_ResearchBenchHiTechMini/TWB_ResearchBenchHiTechMini</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+    </statBases>
+    <comps Inherit="False">
+      <li Class="CompProperties_ReportWorkSpeed">
+        <workSpeedStat>ResearchSpeedFactor</workSpeedStat>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MultiAnalyzer</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_DrawLinesToBookcasesInRoom</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <building>
+      <workTableRoomRole>Laboratory</workTableRoomRole>
+      <workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+    </building>
+  </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TWB_NutrientPasteDispenser</defName>
     <label>tiny nutrient paste dispenser</label>

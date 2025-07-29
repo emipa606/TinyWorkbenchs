@@ -1,4 +1,6 @@
 ﻿using System.Linq;
+using System.Reflection;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 
@@ -7,8 +9,12 @@ namespace TinyWorkbenches;
 [StaticConstructorOnStartup]
 public class TinyWorkbenches
 {
+    public static readonly ThingDef TWB_HiTechResearchBenchMini = ThingDef.Named("TWB_HiTechResearchBenchMini");
+
     static TinyWorkbenches()
     {
+        new Harmony("Mlie.TinyWorkbencshes").PatchAll(Assembly.GetExecutingAssembly());
+
         foreach (var bench in DefDatabase<ThingDef>.AllDefsListForReading.Where(def => def.defName.StartsWith("TWB_")))
         {
             var originalBench = ThingDef.Named(bench.defName.Replace("TWB_", "").Replace("Mini", ""));
