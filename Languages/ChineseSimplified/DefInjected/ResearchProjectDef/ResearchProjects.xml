@@ -4,5 +4,5 @@
   <!-- EN: Tiny Workbenchs -->
   <TWB_TinyWorkBenchs.label>微型工作台</TWB_TinyWorkBenchs.label>
   <!-- EN: Allows for tiny workbenchs. The small size makes them cheap, but fragile and slow. -->
-  <TWB_TinyWorkBenchs.description>允许使用小型工作台。由于体积小，它们价格便宜，但易碎且速度慢。</TWB_TinyWorkBenchs.description>
+  <TWB_TinyWorkBenchs.description>允许使用微型工作台。较小的体积使它们更容易制作，但效率较低。</TWB_TinyWorkBenchs.description>
 </LanguageData>
