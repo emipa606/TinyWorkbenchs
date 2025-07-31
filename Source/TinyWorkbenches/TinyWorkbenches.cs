@@ -17,6 +17,12 @@ public class TinyWorkbenches
 
         foreach (var bench in DefDatabase<ThingDef>.AllDefsListForReading.Where(def => def.defName.StartsWith("TWB_")))
         {
+            if (bench.defName == "TWB_AmmoBenchMini")
+            {
+                // AmmoBenchMini is a special case, it has no original recipes to copy
+                continue;
+            }
+
             var originalBench = ThingDef.Named(bench.defName.Replace("TWB_", "").Replace("Mini", ""));
             foreach (var recipeDef in originalBench.AllRecipes)
             {

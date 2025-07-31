@@ -1,5 +1,8 @@
 # Changelog for TinyWorkbenchs
 
+1.6.4 - Added Loading Bench for CE, updated chinese translation by RhyVis
+
+
 1.6.3 - Missed the added Harmony load-requirement
 
 

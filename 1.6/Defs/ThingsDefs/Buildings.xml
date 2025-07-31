@@ -76,7 +76,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <designationHotKey>Misc2</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_TableButcherMini</defName>
@@ -114,7 +113,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <designationHotKey>Misc3</designationHotKey>
   </ThingDef>
   <ThingDef ParentName="TWB_MiniBenchBase">
     <defName>TWB_HandTailoringBenchMini</defName>

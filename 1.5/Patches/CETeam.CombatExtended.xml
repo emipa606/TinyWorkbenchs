@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="AmmoBench"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <ThingDef ParentName="TWB_MiniBenchBase">
+          <defName>TWB_AmmoBenchMini</defName>
+          <label>tiny loading bench</label>
+          <thingClass>Building_WorkTable</thingClass>
+          <description>A tiny workstation for handloading ammo.</description>
+          <graphicData>
+            <texPath>Things/Buildings/TWB_AmmoBenchMini/TWB_AmmoBenchMini</texPath>
+            <shaderType>CutoutComplex</shaderType>
+          </graphicData>
+          <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+          </stuffCategories>
+          <costStuffCount>60</costStuffCount>
+          <costList>
+            <Steel>20</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+          </costList>
+          <statBases>
+            <Cleanliness>-2</Cleanliness>
+          </statBases>
+          <comps>
+            <li Class="CompProperties_AffectedByFacilities">
+              <linkableFacilities>
+                <li>ToolCabinet</li>
+              </linkableFacilities>
+            </li>
+          </comps>
+          <building>
+            <forceShowRoomStats>true</forceShowRoomStats>
+          </building>
+          <researchPrerequisites>
+            <li>Gunsmithing</li>
+          </researchPrerequisites>
+          <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+          </placeWorkers>
+        </ThingDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
